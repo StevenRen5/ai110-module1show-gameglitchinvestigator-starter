@@ -2,6 +2,7 @@ import random
 import streamlit as st
 from logic_utils import check_guess
 
+# FIX: fixed difficulty level associated with range using Claude reasoning
 def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
