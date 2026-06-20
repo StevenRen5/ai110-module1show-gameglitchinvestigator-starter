@@ -25,29 +25,25 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- Describe the game's purpose: The game's purpose is to allow us to see what features are broken and to fix them.
+- Detail which bugs you found: The difficulty level and the range were not aligned and the popup for go higher or lower is incorrect.
+- [ ] Explain what fixes you applied: I correctly paired the difficulty level with the range, and I redefined the logical statements for whether the popup should say go higher or lower.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
-
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+1. User selects a difficulty level of easy
+2. User enteres a guess of 15
+3. Game retruns "Go HIGHER!"
+4. User enteres a guess of 17 -> "Too High"
+5. Atempts update after each guess
+6. Game ends after the correct guess
 
 ## 🧪 Test Results
+test_game_logic.py .....                                                                         [100%]
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+========================================== 5 passed in 0.01s ===========================================
 
 ## 🚀 Stretch Features
 

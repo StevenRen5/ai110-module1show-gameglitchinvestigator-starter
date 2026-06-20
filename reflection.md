@@ -66,13 +66,15 @@ AI did help me design the structure of the test since I've never used Python tes
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-RESPONSE: N/A
+RESPONSE: These concepts mean how the app reloads the page with the up-to-date content based on how you interact with it.
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+RESPONSE: Always creating test cases to ensure my app runs correctly.
 - What is one thing you would do differently next time you work with AI on a coding task?
+RESPONSE: Pay more attention to when I should commit changes instead of bunching up all the files at once.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+RESPONSE: AI generated code isn't always correct. Always double check.
