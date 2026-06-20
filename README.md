@@ -27,7 +27,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 - Describe the game's purpose: The game's purpose is to allow us to see what features are broken and to fix them.
 - Detail which bugs you found: The difficulty level and the range were not aligned and the popup for go higher or lower is incorrect.
-- [ ] Explain what fixes you applied: I correctly paired the difficulty level with the range, and I redefined the logical statements for whether the popup should say go higher or lower.
+- Explain what fixes you applied: I correctly paired the difficulty level with the range, and I redefined the logical statements for whether the popup should say go higher or lower.
 
 ## 📸 Demo Walkthrough
 
